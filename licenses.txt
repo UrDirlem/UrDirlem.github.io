@@ -1,0 +1,35 @@
+
+Licenses and credits:
+
+GENERAL:
+
+- Front-end framework by [Bootstrap] (http://getbootstrap.com/)
+
+- jQuery, by The jQuery Foundation, distributed  on http://jquery.com/, under the MIT/GPL license (http://opensource.org/licenses/MIT).
+
+- CSS animations powered by WOW.js and Animate.css
+
+- Globe favicon by [Freepik] (http://www.flaticon.com/free-icon/earth-image-with-circulating-arrow_22038), under [CC BY 3.0. license] (http://creativecommons.org/licenses/by/3.0/)
+
+
+PHOTOGRAPHS:
+
+- The Lost Traveler, by [martinak15] (https://www.flickr.com/photos/martinaphotography/8761258560/in/photostream/). Distributed under [CC BY 2.0. license] (http://creativecommons.org/licenses/by/2.0/)
+
+- A Good Book and Cup of Tea, by [A Girl With Tea] (https://www.flickr.com/photos/agirlwithtea/5293982049). Distributed under [CC BY 2.0. license] (http://creativecommons.org/licenses/by/2.0/)
+
+- Macro Globe, by [Max Froumentin] (https://www.flickr.com/photos/maxf/7495063252). Distributed under [CC BY 2.0. license] (http://creativecommons.org/licenses/by/2.0/)
+
+- Family jumps again, by [Evil Erin] (https://www.flickr.com/photos/evilerin/4714974989). Distributed under [CC BY 2.0. license] (http://creativecommons.org/licenses/by/2.0/)
+
+- Studying in math class, by [woodleywonderworks] (https://www.flickr.com/photos/wwworks/8081867203). Distributed under [CC BY 2.0. license] (http://creativecommons.org/licenses/by/2.0/)
+
+- Telephone sheep, by [Rupert Ganzer] (https://www.flickr.com/photos/loop_oh/492805848). Distributed under [CC BY-ND 2.0 license] (http://creativecommons.org/licenses/by-nd/2.0/)
+
+
+FONTS: 
+	1. Roboto, by Christian Robertson. Distributed under [Apache License v2.0] (http://www.apache.org/licenses/LICENSE-2.0), by Google Fonts (http://www.google.com/fonts#UsePlace:use/Collection:Roboto) 
+	2. Roboto Condensed, by Christian Robertson. Distributed under [Apache License v2.0] (http://www.apache.org/licenses/LICENSE-2.0), by Google Fonts (https://www.google.com/fonts#UsePlace:use/Collection:Roboto+Condensed)
+
+
+

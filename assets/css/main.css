@@ -1,0 +1,978 @@
+/****************************************
+******Mobile First: General Style********
+****************************************/
+
+html, body {
+    width: 100%;
+    height: 100%;
+    font-size: 100%;
+}
+
+body {
+    background: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color:#5e5e5e;
+    line-height: 1.4;
+}
+
+hr {
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #fff;
+}
+
+.btn-default {
+    background-color: rgba(145, 172, 49, 0.85);
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    background-color: #91ac31;
+    color: #fff;
+    border: none;
+}
+
+a {
+    color: #444;
+}
+
+a:hover, a:focus {
+    text-decoration: none; 
+}
+
+.padding-section {
+    padding-top: 35px;
+    padding-bottom: 55px;
+}
+
+
+/*************************
+********Typography********
+**************************/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700; 
+    font-family: 'Roboto Condensed', sans-serif;
+    color:#5e5e5e;
+}
+
+h1{
+    font-size: 4rem;
+    color:#fff;
+}
+
+h2{
+    font-size: 3rem;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+h5{
+    font-size: 1.250rem;
+}
+
+h6{
+    font-size: 1.125rem;
+}
+
+
+/*************************
+**********Header**********
+**************************/
+
+.cta-nav {
+    text-align: right;
+}
+
+.cta-nav>span {
+    display: none;
+}
+
+.navbar>.container .navbar-brand {
+    margin-left: 0;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color:  rgba(128,160,160,0.05);
+}
+
+.navbar-toggle:hover + .navbar-default .navbar-toggle .icon-bar {
+    background-color: #444;
+}
+
+.top-bar {
+    padding: 10px 0;
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    line-height: 28px;
+}
+
+.navbar-brand {
+    margin:0;
+    padding: 0;
+}
+
+.navbar-brand img {
+    width: 35px;
+    height: 35px;
+    margin: -7px 7px 7px;
+}
+
+.name {
+    display: inline-block;
+    font-size: 1.9rem;
+    color: #444;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+
+.navbar {
+    margin: 51px 0 0;
+    padding: 15px 0 0;
+    background: #fff;
+    border-radius: 0;
+    -webkit-box-shadow: 0 10px 5px -10px #ccc; /* Android 2.3 */
+            box-shadow: 0 10px 5px -10px #ccc;
+}
+
+.navbar-nav{
+    margin-top: 12px;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+}
+
+.navbar-nav > li {
+    margin-left: 15px;
+    padding-bottom: 5px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    display: inline-block;
+    margin: 0;
+    padding: 5px 12px;
+    border-radius: 3px;
+    line-height: 24px;
+}
+
+.navbar-default .navbar-nav > li > a:hover{
+    background-color: #fafafa;
+    border-radius: 2px;   
+    color: #888;
+}
+
+.navbar-default {
+    border: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar-default .navbar-brand {
+    color: #fff;
+    line-height: 50px;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+    background-color: transparent;
+    border: 1px solid #888;
+    border-radius: 2px;
+    color: #444;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    padding-bottom: 0;
+    border-top: 0;
+}
+
+
+/*************************
+********Intro/Home********
+**************************/
+
+.intro-section {
+    position: relative;
+    margin-top: 115px;
+    height: 100%;
+    background: url(../img/translate/home-background-sm.jpg) no-repeat top center;
+	background-size: cover;
+	color: #fafafa;	
+	text-align: right;   
+}
+
+.intro-section-teach {
+    background: url(../img/teach/teach-background-sm.jpg) no-repeat center left;
+    background-size: cover;       
+}
+
+.intro-section-teach .intro-message {
+    padding-top: 35%;
+}
+
+.intro-message {
+	position: relative;
+	padding-top: 15%;
+}
+
+.intro-message > h1 {
+	margin: 0;
+	font-size: 2.2rem;
+}
+
+.intro-message > h3 {
+	color: #fff;
+    font-size: 1.5rem;
+}
+
+.intro-message .btn {
+    margin-top: 20px;
+}
+
+
+/*************************
+*********Services*********
+**************************/
+
+.services {
+    background-color: #fafafa;
+}
+
+.services h5 {
+    text-align: center;
+}
+
+
+/*************************
+******How it works********
+**************************/
+
+.how-works h1 {
+    color: #888;
+}
+
+
+/*************************
+*********Pricing**********
+**************************/
+
+.pricing .panel {
+    -webkit-transition: all 0.30s;
+            transition: all 0.30s;
+}    
+    
+.pricing .panel:hover {
+    -webkit-transform:scale(1.05); 
+            transform:scale(1.05);
+}
+    
+.panel>.panel-heading {
+    background-color: #fff;
+}
+
+.pricing .panel-heading:hover {
+    background-color: #fff;
+}
+    
+.pricing .panel-body h3 {
+    margin: 0;
+    color:  #fff;
+}
+    
+.pricing .panel-body {
+    background-color: rgba(128,160,160,0.85);
+}
+
+.pricing h3 small {
+    font-size: 50%;
+    color: #fafafa;
+}
+
+
+/*************************
+***********Faqs***********
+**************************/
+
+.panel-default>a:hover {
+    color: #fff;
+}
+
+.panel-heading {
+    border-color:  #80a0a0;
+    -webkit-transition: all 0.35s;
+            transition: all 0.35s;
+}
+
+.panel-heading:hover {
+    background-color: rgba(128,160,160,0.85);
+}
+
+.one {
+    background-color: rgba(128,160,160,0.75);
+}
+ 
+.two {
+    background-color: rgba(128,160,160,0.65);
+}
+
+.three {
+    background-color: rgba(128,160,160,0.55);
+}
+
+.four {
+    background-color: rgba(128,160,160,0.45);
+}
+
+.five {
+    background-color: rgba(128,160,160,0.35);
+}
+
+.six {
+    background-color: rgba(128,160,160,0.25);
+}
+
+.panel-title {
+    padding: 5px;
+    font-size: 1.125rem;
+}
+
+
+/*************************
+******Call to Action******
+**************************/
+
+.cta,
+.cta-teach {
+    display: none;
+}
+
+.cta h1 {
+    padding: 0;
+    font-size: 2rem;
+    color: #fff;
+    line-height: 1.1;
+}
+
+.refer-txt {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.cta .refer-btn {
+    background-color: #ddd;
+}
+
+.cta-main-btn {
+    margin: 0 auto 25px;
+}
+
+.cta-main-text {
+    font-size: 1.250em;
+    font-weight: 600;
+}
+
+/*************************
+**********About***********
+**************************/
+
+.read-more-text {
+    display: none;
+}
+
+/*************************
+**********Contact*********
+**************************/
+
+.contact {
+    height: 90%;
+    padding-top: 35px;
+    background: url(../img/translate/contact-background-xs.jpg) no-repeat center center;
+    background-size: cover;  
+}
+
+.teach-contact {
+    background: url(../img/teach/teach-contact-background-sm.jpg) no-repeat center right;
+    background-size: cover;
+}
+
+.contact-details {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: -100px;
+    padding-left: 0;
+    padding-top: 22%;
+    background-color: rgba(255,255,255,0.85);
+    list-style: none;
+    font-weight: 700;
+}
+
+.contact .title-section h3 {
+    color: #fff;
+}
+
+
+/*************************
+**********Footer**********
+**************************/
+
+footer {
+    position: relative;
+    z-index: 2;
+    padding-top: 10px;
+    background-color: #ccc;
+    font-size: 0.850rem;
+}
+
+footer p {
+    display: inline-block;
+}
+
+
+/*************************
+*******Scrooll-Top********
+**************************/
+
+.scroll-top {
+    display: none;
+    position: fixed;
+    right: 8px;
+    bottom: 35px;
+    font-size: 3rem;
+}
+
+.scroll-top a {
+    color: rgba(128,160,160,0.85);
+}
+
+.scroll-top a:hover {
+    color: #80a0a0;
+}
+
+
+/************************
+   Media Queries
+*************************/
+
+/* Small devices: Landscape smartphones*/
+
+@media only screen and (min-width: 320px) and (orientation: landscape) {
+    
+    /* Header */
+    
+    .top-bar {
+        display: none;
+    }
+    
+    .navbar {
+        margin-top: 0;
+    }
+    
+    /* Intro/Home */
+    
+    .intro-section {
+        margin-top: 75px; 
+        height: calc(100% - 75px); 
+    }
+
+    .intro-message {
+        padding-top: 1%;
+    }
+    
+    .intro-section-teach .intro-message {
+        padding-top: 15%;
+    }
+    
+    .intro-message .btn {
+        margin-top: 0;
+    }
+    
+    /* Contact */
+    
+    .contact {
+        padding-top: 0;   
+        height: calc(100% - 50px);
+    }
+    
+    .contact-details {
+        padding-top: 12%;
+    }
+    
+}
+
+
+/* Medium devices: Portrait Tablets */
+
+@media only screen and (min-width: 600px) and (orientation: portrait) {
+    
+    /* Header */
+    
+    .cta-nav>span {
+        display: inline;
+        padding: 15px;
+    }
+    
+    /* Intro/Home */
+    
+    .intro-section {
+        height: calc(50% - 115px);
+        background: url(../img/translate/home-background-md.jpg) no-repeat top center;
+	    background-size: cover;
+    }
+    
+    .intro-section-teach {
+        background: url(../img/teach/teach-background-md.jpg) no-repeat center left;
+        background-size: cover;       
+    }
+    
+    .intro-section-teach .intro-message {
+        padding-top: 15%;
+    }
+
+    .intro-message {
+        padding-top: 5%;
+    }
+    
+    /* Call to Action */
+    
+    .cta {
+        display: block;
+        height: 30%;
+        background: url(../img/translate/cta-background-md.jpg) no-repeat center top fixed;
+        background-size: cover;
+    }
+
+    .cta-teach {
+        display: block;
+        background: url(../img/teach/teach-cta-background-md.jpg) no-repeat right top fixed;
+        background-size: cover;
+    }
+    
+    .cta h1 {
+        padding: 15px 0 10px;
+        font-size: 3rem;
+    }
+    
+    .cta-main-btn {
+        margin: 35px auto 0;
+    }
+    
+    /* Contact */
+    
+    .contact {
+        height: 50%;
+        background: url(../img/translate/contact-background-md.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    
+    .teach-contact {
+        background: url(../img/teach/teach-contact-background-md.jpg) no-repeat center right;
+        background-size: cover;
+    }
+    
+    .contact-details {
+        width: 250px;
+        height: 250px;
+        margin-left: -125px;
+        padding-top: 15%;
+    }
+
+}
+
+
+/* Medium devices: Landscape Tablets */
+
+@media only screen and (min-width: 768px) {
+    
+    /* Header */
+    
+    .top-bar {
+        display: block;
+    }
+    
+    .navbar {
+        margin-top: 51px;
+    }
+    
+    .navbar-nav>li {
+        margin-left: 0; 
+        padding-bottom: 28px;
+    }
+    
+    .navbar-default .navbar-nav > li > a {
+        padding: 5px 10px;
+    
+    }
+    .navbar-default > .container {
+        width: 768px;
+    }
+    
+    .name {
+        line-height: 55px;
+    }
+    
+    /* Intro/Home */
+    
+    .intro-section {
+        margin-top: 140px;
+        height: calc(100% - 140px);
+    }
+    
+    .intro-message {
+        padding-top: 7%;
+    }
+    
+    .intro-message .btn {
+        margin-top: 20px;
+    }
+    
+    /* Call to Action */
+    
+    .cta {
+        display: block;
+        height: 35%;
+        background: url(../img/translate/cta-background-md.jpg) no-repeat center top fixed;
+        background-size: cover;
+    }
+
+    .cta-teach {
+        display: block;
+        background: url(../img/teach/teach-cta-background-md.jpg) no-repeat right top fixed;
+        background-size: cover;
+    }
+    
+    .cta-nav{
+        text-align: right;
+    }
+    
+    .cta-nav>span {
+        display: inline;
+        padding-right: 15px;
+    }
+    
+    .cta {
+        display: block;
+        height: 50%;
+    }
+    
+    .cta h1 {
+        padding: 15px 0 10px;
+        font-size: 3rem;
+    }
+    
+    /* Contact */
+    
+    .contact {
+        height: calc(100% - 174px);
+    }
+    
+    .contact-details {
+        width: 250px;
+        height: 250px;
+        margin-left: -125px;
+        padding-top: 13%;
+    }
+    
+}
+
+
+/* Medium devices: Portrait IPADs */
+
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+    
+    /* Intro/Home */
+    
+    .intro-section {
+        margin-top: 142px;
+        height: calc(50% - 142px);
+    }
+    
+    /* Call to Action */
+    
+    .cta h1 {
+        padding: 35px 0 20px;
+        font-size: 4rem;
+    }
+    
+    .cta-main-btn {
+        margin: 35px auto 0;
+    }
+    
+    /* Contact */
+    
+    .contact {
+        height: 50%;
+    }
+    
+}
+
+
+@media screen and (min-width: 900px) {
+    
+    /* Header */
+    
+    .navbar-default > .container {
+        width: 900px;
+    }
+    
+    .navbar-brand img {
+        width: 50px;
+        height: 50px;
+        margin-top: -20px;
+        margin-right: 10px;
+    }
+    
+    .name {
+        font-size: 3rem;
+    }
+    
+    /* Intro/Home */
+    
+    .intro-section {
+        background: url(../img/translate/home-background-lg.jpg) no-repeat top center;
+	    background-size: cover;
+    }
+    
+    .intro-section-teach {
+        background: url(../img/teach/teach-background-lg.jpg) no-repeat center left;
+        background-size: cover;       
+    }
+    
+    .intro-message > h1 {
+	    font-size: 4rem;
+    }
+    
+    .intro-message > h3 {
+	    font-size: 2rem;
+    }
+    
+    .title-section {
+        margin-bottom: 4%;
+    }
+    
+    /* Call to Action */
+    
+    .cta {
+        height: 55%;
+        background: url(../img/translate/cta-background-lg.jpg) no-repeat center top fixed;
+        background-size: cover;
+    }
+
+    .cta-teach {
+        background: url(../img/teach/teach-cta-background-lg.jpg) no-repeat right top fixed;
+        background-size: cover;
+    }
+    
+    .cta h1 {
+        font-size: 4rem;
+    }
+    
+    .cta-main-btn {
+        margin: 35px auto 0;
+    }
+    
+    /* Contact */
+    
+    .contact {
+        background: url(../img/translate/contact-background-lg.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    
+    .teach-contact {
+        background: url(../img/teach/teach-contact-background-lg.jpg) no-repeat center right;
+        background-size: cover;
+    }
+    
+    .contact-details {
+        width: 250px;
+        height: 250px;
+        margin-left: -125px;
+        padding-top: 15%;
+        font-size: 1.125rem;
+    }
+    
+}
+
+
+@media screen and (min-width: 1200px) {
+    
+    /* Header */
+    
+    .navbar-default > .container {
+        width: 1170px;
+    }
+    
+    .cta-nav>span {
+        padding-right: 35px;
+    }
+    
+    .navbar-brand img {
+        margin-top: -2px;
+    }
+    
+    .navbar-nav>li {
+        margin-left: 35px;
+    }
+    
+    .navbar-default .navbar-brand {
+        font-size: 3rem;
+    }
+    
+    /* Intro/Home */
+     
+    .intro-section-teach .intro-message {
+        padding-top: 15%;
+    }
+    
+    .intro-message {
+	    padding-top: 10%;
+    }
+    
+    /* How it works/Pricing/About */
+    
+    .services,
+    .how-works, 
+    .pricing {
+        height: calc(100% - 140px);
+    }
+    
+    .services .first-row {
+        padding-bottom: 35px;
+    }
+    
+    .pricing,
+    .about {
+        background-color: #fafafa;
+    }
+    
+    /* Call to Action */
+
+    .cta {
+        height: 50%;
+    }
+
+    .cta h1 {
+        padding: 35px 0 20px;
+    }
+    
+    /* Contact */   
+    
+    .contact-details {
+        padding-top: 25%;
+    }
+    
+    .teach-contact .title-section {
+        margin-top: 4%;
+    }
+    
+    .teach-contact .title-section h3 {
+        color: #444;
+    }
+     
+}
+
+
+@media only screen and (min-width: 1824px) {
+
+    /* General */
+    
+    html {
+        font-size: 1.5rem;
+    }
+
+    body {
+        font-weight: 400;
+    }
+
+    .container {
+        width: 1600px;
+    }
+    
+        /* Header */
+    
+        .navbar-default > .container {
+            width: 1600px;
+        }
+    
+        .navbar-brand img {
+            width: 65px;
+            height: 65px;
+        }
+    
+        /* Intro/Home */
+    
+        .intro-section {
+            background: url(../img/translate/home-background-xl.jpg) no-repeat top center;
+	        background-size: cover;
+        }
+    
+        .intro-section-teach {
+            background: url(../img/teach/teach-background-xl.jpg) no-repeat center left;
+            background-size: cover;       
+        }
+    
+        .intro-message {
+            padding-top: 15%;
+        }
+    
+        /* Call to Action */
+    
+        .cta {
+            background: url(../img/translate/cta-background-xl.jpg) no-repeat center top fixed;
+            background-size: cover;
+        }
+
+        .cta-teach {
+            background: url(../img/teach/teach-cta-background-xl.jpg) no-repeat right top fixed;
+            background-size: cover;
+        }
+    
+        .cta h1 {
+            padding: 85px 0 35px;
+        }
+    
+        /* About */
+    
+        .lead {
+            font-size: 1rem;
+            font-weight: 400;
+        }
+    
+        /* Contact */
+    
+        .contact-details {
+            width: 350px;
+            height: 350px;
+            margin-left: -175px;
+        }
+    
+        .contact .title-section {
+            margin-top: 4%;
+            margin-bottom: 7%;
+            color: #fff;
+        }
+
+}
+
+
+
+
+
+
